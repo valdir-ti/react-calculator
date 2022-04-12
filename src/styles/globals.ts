@@ -2,7 +2,9 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     :root {
-        --background: '#f0f2f5';
+        --background: rgb(255, 255, 255);
+        --background-item: rgb(229, 229, 229);
+        --orange: rgb(255, 142, 60);
     }
 
     * {
@@ -24,6 +26,11 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background: var(--background);
         -webkit-font-smoothing: antialiased;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     body, input, textArea, button {
