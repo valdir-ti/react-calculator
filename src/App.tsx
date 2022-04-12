@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button } from './components/Button';
+import { Body } from './components/Body';
 import { Result } from './components/Result';
-import { Container, Header, Title, AppContainer } from './style';
+import { Container, Header, Title, AppContainer } from './styles';
 import { GlobalStyle } from './styles/globals';
 
 export function App() {
@@ -14,7 +14,7 @@ export function App() {
       </Header>
       <AppContainer>
         <Result />
-        <Button />
+        <Body />
       </AppContainer>
       <GlobalStyle />
     </Container>

@@ -1,5 +1,6 @@
 import React from 'react'
+import { Title } from './styles'
 
 export function Value() {
-    return <p>Result Value</p>
+    return <Title>0</Title>
 }
