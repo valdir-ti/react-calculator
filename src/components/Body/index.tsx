@@ -23,6 +23,6 @@ export function Body() {
       <Button name='0' value='0'/>
       <Button name='.' value='.'/>
       <Button name='<=' background='#fff' value='return'/>
-      <Button name='=' background='#fff' value='total'/>
+      <Button name='=' background='#FF8E3C' value='total'/>
   </Container>
 }

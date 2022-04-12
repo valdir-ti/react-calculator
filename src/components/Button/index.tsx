@@ -12,5 +12,5 @@ export function Button({ name, background = '#b5b5c4', value }: IButton) {
         alert(`handleButton clicked ${value}`)
     }
 
-    return <ButtonApp style={{backgroundColor: background}} onClick={handleClick}>{name}</ButtonApp>
+    return <ButtonApp style={{backgroundColor: background, fontSize:20}} onClick={handleClick}>{name}</ButtonApp>
 }
