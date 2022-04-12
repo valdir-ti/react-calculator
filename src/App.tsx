@@ -1,4 +1,6 @@
 import React from 'react';
+import { GlobalStyle } from './styles/globals';
+
 
 export function App() {
   return (
@@ -8,6 +10,7 @@ export function App() {
           Calculator App
         </p>
       </header>
+      <GlobalStyle />
     </div>
   );
 }
