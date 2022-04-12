@@ -3,6 +3,6 @@ import {Container, Title} from './styles'
 
 export function History() {
     return <Container>
-        <Title>History</Title>
+        <Title>100x10+99</Title>
     </Container>
 }

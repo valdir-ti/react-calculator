@@ -1,11 +1,10 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-    display: flex;
-    justify-content: end;
-    width: 100%;
+    margin-right: 12px;
 `
 
 export const Title = styled.p`
-    color: var(--orange)
+    color: var(--orange);
+    font-size: 18px;
 `
